@@ -1,0 +1,53 @@
+/* Write your CSS code in this file */
+
+body {
+    background:#99ff99;
+    align-content: center;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-style: italic;
+    font-size: 40px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    font-size: 32px;
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 10%;
+  }
+.emoji {
+    font-size: 24px;
+}
+.center {
+    margin: auto;
+    width: 75%;
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+#guess-box {
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+}
+#game-box {
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-radius: 10%;
+}
+#footer {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
